@@ -1,0 +1,50 @@
++назейр;
+йнд=list11; хлъ=йНМРСП; рхо=1;
+
++оюпюлерпш;
+   Rad=; Shag=;  Round=;  Grad=;
+   Rad2=;   Shag2=; Round2=; Grad2=;
+   a10=;
+   a20=; 
+   a30=;
+   a40=;
+
+
+   x1=;  y1=;
+   x2=;  y2=;
+   x3=;  y3=;
+   x4=;  y4=;
+   x5=0; y5=0;
+
+top1=1;    top2=0;
+top3=2;    top4=-5;
+top5=3;    top6=0;
+top7=4;    top8=5;
+top9=1;    top10=0;
+
+N=5; Ntop=10;
+
++тнплскш;
+Rad2=Rad+2;
+Round=Rad*2*3.1415;
+Round2=Rad2*2*3.1415;
+Shag=Round/114;
+Shag2=Round2/114;
+Grad=Round/360;
+Grad2=Round2/360;
+
+a10=(Shag*10-Shag*(8/17))/Grad;
+y1=COS(a10)*Rad;
+x1=SIN(a10)*Rad;
+
+a20=a10;
+y2=COS(a10)*Rad2;
+x2=SIN(a10)*Rad2;
+
+a30=(Shag2*20)/Grad2;
+y3=COS(a30)*Rad2;
+x3=SIN(a30)*Rad2;
+
+a40=a30;
+y4=COS(a40)*Rad;
+x4=SIN(a40)*Rad;

@@ -1,0 +1,12 @@
+SPM
+C:\!students\maltsev\tech_model\
+SYS 
+C:\spm\model\stdPS\;c:\SPM\sys\
+TAB
+C:\spm\model\stdPS\оя16\
+ERR 
+c:\spm\ERR\
+GIN 
+C:\spm\model\stdPS\оя16\
+SPB
+C:\!students\maltsev\tech_model\
