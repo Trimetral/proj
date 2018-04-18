@@ -11,9 +11,9 @@ lis=1000;
 
   щкелемр=00; хлъ=аЮГЮ; рхо=т;
 
-  щкелемр=sec01; йнд=fz_section; Rad=404; RadEnd=350; len=len; lis=lis;
-  щкелемр=sec02; йнд=fz_section; Rad=350; RadEnd=450; len=600; lis=600;
-  щкелемр=sec03; йнд=fz_section; Rad=450; RadEnd=450; len=800; lis=800;
+  щкелемр=sec01; йнд=fz_section; Rad=404; RadEnd=450; len=len; lis=lis;
+  щкелемр=sec02; йнд=fz_section; Rad=450; RadEnd=400; len=600; lis=600;
+  щкелемр=sec03; йнд=fz_section; Rad=400; RadEnd=300; len=800; lis=800;
 
 +онкнфемхе;
   ябъгэ=00-sec01;

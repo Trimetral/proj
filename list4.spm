@@ -38,8 +38,8 @@ y1=COS(a10)*Rad;
 x1=SIN(a10)*Rad;
 
 a20=a10;
-y2=COS(a10)*Rad2;
-x2=SIN(a10)*Rad2;
+y2=COS(a20)*Rad2;
+x2=SIN(a20)*Rad2;
 
 a30=(Shag2*88)/Grad2;
 y3=COS(a30)*Rad2;
