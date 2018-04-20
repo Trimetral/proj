@@ -119,84 +119,84 @@
 
 щкелемр=k11|0;  йнд=list1; Rad=Rad;
 щкелемр=kk11|0; йнд=list1; Rad=RadEnd;
-щкелемр=t11|0;  йнд=tension; l=lis;
+щкелемр=t11|0;  йнд=tension3; l=lis;
 
 !щкелемр=k10|10; йнд=list2; Rad=Rad_up;
 !щкелемр=t10|10; йнд=shift; U=0; X=0; Y=0; l=lis;
 
 щкелемр=k10|10;  йнд=list2; Rad=Rad_up;
 щкелемр=kk10|10; йнд=list2; Rad=RadEnd_up;
-щкелемр=t10|10;  йнд=tension; l=lis;
+щкелемр=t10|10;  йнд=tension3; l=lis;
 
 !щкелемр=k9|20; йнд=list3; Rad=Rad;
 !щкелемр=t9|20; йнд=shift; U=0; X=0; Y=0; l=lis;
 
 щкелемр=k9|20;  йнд=list3; Rad=Rad;
 щкелемр=kk9|20; йнд=list3; Rad=RadEnd;
-щкелемр=t9|20;  йнд=tension; l=lis;
+щкелемр=t9|20;  йнд=tension3; l=lis;
 
 !щкелемр=k8|27; йнд=list4; Rad=Rad_up;
 !щкелемр=t8|27; йнд=shift; U=0; X=0; Y=0; l=lis;
 
 щкелемр=k8|27;  йнд=list4; Rad=Rad_up;
 щкелемр=kk8|27; йнд=list4; Rad=RadEnd_up;
-щкелемр=t8|27;  йнд=tension; l=lis;
+щкелемр=t8|27;  йнд=tension3; l=lis;
 
 !щкелемр=k7|37; йнд=list5; Rad=Rad;
 !щкелемр=t7|37; йнд=shift; U=0; X=0; Y=0; l=lis;
 
 щкелемр=k7|37;  йнд=list5; Rad=Rad;
 щкелемр=kk7|37; йнд=list5; Rad=RadEnd;
-щкелемр=t7|37;  йнд=tension; l=lis;
+щкелемр=t7|37;  йнд=tension3; l=lis;
 
 !щкелемр=k6|47; йнд=list6; Rad=Rad_up;
 !щкелемр=t6|47; йнд=shift; U=0; X=0; Y=0; l=lis;
 
 щкелемр=k6|47;  йнд=list6; Rad=Rad_up;
 щкелемр=kk6|47; йнд=list6; Rad=RadEnd_up;
-щкелемр=t6|47;  йнд=tension; l=lis;
+щкелемр=t6|47;  йнд=tension3; l=lis;
 
 !щкелемр=k5|57; йнд=list7; Rad=Rad;
 !щкелемр=t5|57; йнд=shift; U=0; X=0; Y=0; l=lis;
 
 щкелемр=k5|57;  йнд=list7; Rad=Rad;
 щкелемр=kk5|57; йнд=list7; Rad=RadEnd;
-щкелемр=t5|57;  йнд=tension; l=lis;
+щкелемр=t5|57;  йнд=tension3; l=lis;
 
 !щкелемр=k4|47_2; йнд=list8; Rad=Rad_up;
 !щкелемр=t4|47_2; йнд=shift; U=0; X=0; Y=0; l=lis;
 
 щкелемр=k4|47_2;  йнд=list8; Rad=Rad_up;
 щкелемр=kk4|47_2; йнд=list8; Rad=RadEnd_up;
-щкелемр=t4|47_2;  йнд=tension; l=lis;
+щкелемр=t4|47_2;  йнд=tension3; l=lis;
 
 !щкелемр=k3|37_2; йнд=list9; Rad=Rad;
 !щкелемр=t3|37_2; йнд=shift; U=0; X=0; Y=0; l=lis;
 
 щкелемр=k3|37_2;  йнд=list9; Rad=Rad;
 щкелемр=kk3|37_2; йнд=list9; Rad=RadEnd;
-щкелемр=t3|37_2;  йнд=tension; l=lis;
+щкелемр=t3|37_2;  йнд=tension3; l=lis;
 
 !щкелемр=k2|27_2; йнд=list10; Rad=Rad_up;
 !щкелемр=t2|27_2; йнд=shift; U=0; X=0; Y=0; l=lis;
 
 щкелемр=k2|27_2;  йнд=list10; Rad=Rad_up;
 щкелемр=kk2|27_2; йнд=list10; Rad=RadEnd_up;
-щкелемр=t2|27_2;  йнд=tension; l=lis;
+щкелемр=t2|27_2;  йнд=tension3; l=lis;
 
 !щкелемр=k1|20_2; йнд=list11; Rad=Rad;
 !щкелемр=t1|20_2; йнд=shift; U=0; X=0; Y=0; l=lis;
 
 щкелемр=k1|20_2;  йнд=list11; Rad=Rad;
 щкелемр=kk1|20_2; йнд=list11; Rad=RadEnd;
-щкелемр=t1|20_2;  йнд=tension; l=lis;
+щкелемр=t1|20_2;  йнд=tension3; l=lis;
 
 !щкелемр=k0|10_2; йнд=list12; Rad=Rad_up;
 !щкелемр=t0|10_2; йнд=shift; U=0; X=0; Y=0; l=lis;
 
 щкелемр=k0|10_2;  йнд=list12; Rad=Rad_up;
 щкелемр=kk0|10_2; йнд=list12; Rad=RadEnd_up;
-щкелемр=t0|10_2;  йнд=tension; l=lis;
+щкелемр=t0|10_2;  йнд=tension3; l=lis;
 
 
 +онкнфемхе;
