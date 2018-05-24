@@ -1,6 +1,12 @@
-!special:runModel=trn-par-geo-showSPB
+!special:runModel=trn-str-par-geo-showSPB
 +назейр;
 йнд=fz; хлъ=тЧГЕКЪФ; рхо=я;
+
+S4(вЕРШПЕ ЯЕЙЖХХ)=(sectionCount,4,4);
+S5(оЪРЭ ЯЕЙЖХИ)=(sectionCount,5,5);
+S6(ьЕЯРЭ ЯЕЙЖХИ)=(sectionCount,6,6);
+цпсоою(йНК-БН ЯЕЙЖХИ)=S4,S5,S6; 
+лндекэ=рюлй;
 
 +оюпюлерпш;
 Rad=304;
@@ -9,22 +15,38 @@ len2=; lis2=; Rad2=; RadEnd2=;
 len3=; lis3=; Rad3=; RadEnd3=; X3=;
 len4=; lis4=; Rad4=; RadEnd4=; X4=;
 
+sectionCount=4;
+sectonLen=608;
+mainLen=;
+
+deltaSection3=;
+deltaSection4=;
+
 +щкелемрш;
 
   щкелемр=00; хлъ=аЮГЮ; рхо=т;
 
-  щкелемр=sec01; йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=len1; lis=lis1;
-  щкелемр=sec02; йнд=fz_section; Rad=Rad2; RadEnd=RadEnd2; len=len2; lis=lis2;
-  щкелемр=sec03; йнд=fz_section; Rad=Rad3; RadEnd=RadEnd3; len=len3; lis=lis3;
-  щкелемр=sec04; йнд=fz_section; Rad=Rad4; RadEnd=RadEnd4; len=len4; lis=lis4;
+  щкелемр=sec01; йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=sectonLen; lis=sectonLen; ябниярбю=S4,S5,S6;
+  щкелемр=sec02; йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=sectonLen; lis=sectonLen; ябниярбю=S5,S6;
+  щкелемр=sec03; йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=sectonLen; lis=sectonLen; ябниярбю=S6;
+  щкелемр=sec04; йнд=fz_section; Rad=Rad2; RadEnd=RadEnd2; len=sectonLen; lis=sectonLen; ябниярбю=S4,S5,S6;
+  щкелемр=sec05; йнд=fz_section; Rad=Rad3; RadEnd=RadEnd3; len=sectonLen; lis=sectonLen; ябниярбю=S4,S5,S6;
+  щкелемр=sec06; йнд=fz_section; Rad=Rad4; RadEnd=RadEnd4; len=sectonLen; lis=sectonLen; ябниярбю=S4,S5,S6;
 
 +онкнфемхе;
   ябъгэ=00-sec01;
-  ябъгэ=00-sec02; X=len1;
-  ябъгэ=00-sec03; X=X3;
-  ябъгэ=00-sec04; X=X4;
+  ябъгэ=sec01-sec02; X=sectonLen;
+  ябъгэ=00-sec03; X=deltaSection3;
+  ябъгэ=00-sec04; X=deltaSection4;
+  ябъгэ=sec04-sec05; X=sectonLen;
+  ябъгэ=sec05-sec06; X=sectonLen;
 
 +тнплскш;
+mainLen=sectonLen*sectionCount;
+
+deltaSection3=sectonLen*2;
+deltaSection4=sectonLen*(sectionCount-3);
+
 len1=Rad*2;
 lis1=len1;
 Rad1=Rad;
@@ -46,3 +68,5 @@ lis4=len4;
 Rad4=RadEnd3;
 RadEnd4=Rad/30*20;
 X4=X3+len3;
+
+
