@@ -3,19 +3,46 @@
 йнд=fz; хлъ=тЧГЕКЪФ; рхо=я;
 
 +оюпюлерпш;
-Rad=404;
-len=1000;
-lis=1000;
+Rad=304;
+len1=; lis1=; Rad1=; RadEnd1=;
+len2=; lis2=; Rad2=; RadEnd2=;
+len3=; lis3=; Rad3=; RadEnd3=; X3=;
+len4=; lis4=; Rad4=; RadEnd4=; X4=;
 
 +щкелемрш;
 
   щкелемр=00; хлъ=аЮГЮ; рхо=т;
 
-  щкелемр=sec01; йнд=fz_section; Rad=404; RadEnd=450; len=len; lis=lis;
-  щкелемр=sec02; йнд=fz_section; Rad=450; RadEnd=400; len=600; lis=600;
-  щкелемр=sec03; йнд=fz_section; Rad=400; RadEnd=300; len=800; lis=800;
+  щкелемр=sec01; йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=len1; lis=lis1;
+  щкелемр=sec02; йнд=fz_section; Rad=Rad2; RadEnd=RadEnd2; len=len2; lis=lis2;
+  щкелемр=sec03; йнд=fz_section; Rad=Rad3; RadEnd=RadEnd3; len=len3; lis=lis3;
+  щкелемр=sec04; йнд=fz_section; Rad=Rad4; RadEnd=RadEnd4; len=len4; lis=lis4;
 
 +онкнфемхе;
   ябъгэ=00-sec01;
-  ябъгэ=00-sec02; X=len;
-  ябъгэ=00-sec03; X=1600;
+  ябъгэ=00-sec02; X=len1;
+  ябъгэ=00-sec03; X=X3;
+  ябъгэ=00-sec04; X=X4;
+
++тнплскш;
+len1=Rad*2;
+lis1=len1;
+Rad1=Rad;
+RadEnd1=Rad;
+
+len2=Rad/3*2;
+lis2=len2;
+Rad2=RadEnd1;
+RadEnd2=Rad/30*29;
+
+len3=Rad/3*1;
+lis3=len3;
+Rad3=RadEnd2;
+RadEnd3=Rad/30*27;
+X3=len1+len2;
+
+len4=Rad/3*2;
+lis4=len4;
+Rad4=RadEnd3;
+RadEnd4=Rad/30*20;
+X4=X3+len3;

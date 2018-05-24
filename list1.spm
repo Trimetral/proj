@@ -41,7 +41,7 @@ a20=a10;
 y2=COS(a10)*Rad2;
 x2=SIN(a10)*Rad2;
 
-a30=(Shag2*114)/Grad2;
+a30=(Shag2*114+Shag*(7/17))/Grad2;
 y3=COS(a30)*Rad2;
 x3=SIN(a30)*Rad2;
 
