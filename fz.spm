@@ -2,71 +2,69 @@
 +назейр;
 йнд=fz; хлъ=тЧГЕКЪФ; рхо=я;
 
-S4(вЕРШПЕ ЯЕЙЖХХ)=(sectionCount,4,4);
-S5(оЪРЭ ЯЕЙЖХИ)=(sectionCount,5,5);
-S6(ьЕЯРЭ ЯЕЙЖХИ)=(sectionCount,6,6);
-цпсоою(йНК-БН ЯЕЙЖХИ)=S4,S5,S6; 
+S7(яЕЛЭ ЯЕЙЖХИ)=(passCount,320,350);
+S8(бНЯЕЛЭ ЯЕЙЖХИ)=(passCount,351,382);
+S9(дЕБЪРЭ ЯЕЙЖХИ)=(passCount,383,413);
+цпсоою(йНК-БН ЯЕЙЖХИ)=S7,S8,S9; 
 лндекэ=рюлй;
 
 +оюпюлерпш;
 Rad=304;
-len1=; lis1=; Rad1=; RadEnd1=;
-len2=; lis2=; Rad2=; RadEnd2=;
-len3=; lis3=; Rad3=; RadEnd3=; X3=;
-len4=; lis4=; Rad4=; RadEnd4=; X4=;
+Rad0=;
+Rad1=; RadEnd1=;
+Rad2=; RadEnd2=;
+Rad3=; RadEnd3=; 
+Rad4=; RadEnd4=; 
 
-sectionCount=4;
-sectonLen=608;
-mainLen=;
+passCount=400;
+temp=;
+sectionCount=;
+sectionLen=;
 
 deltaSection3=;
 deltaSection4=;
 
 +щкелемрш;
-
   щкелемр=00; хлъ=аЮГЮ; рхо=т;
-
-  щкелемр=sec01; йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=sectonLen; lis=sectonLen; ябниярбю=S4,S5,S6;
-  щкелемр=sec02; йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=sectonLen; lis=sectonLen; ябниярбю=S5,S6;
-  щкелемр=sec03; йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=sectonLen; lis=sectonLen; ябниярбю=S6;
-  щкелемр=sec04; йнд=fz_section; Rad=Rad2; RadEnd=RadEnd2; len=sectonLen; lis=sectonLen; ябниярбю=S4,S5,S6;
-  щкелемр=sec05; йнд=fz_section; Rad=Rad3; RadEnd=RadEnd3; len=sectonLen; lis=sectonLen; ябниярбю=S4,S5,S6;
-  щкелемр=sec06; йнд=fz_section; Rad=Rad4; RadEnd=RadEnd4; len=sectonLen; lis=sectonLen; ябниярбю=S4,S5,S6;
+  щкелемр=sec00; йнд=fz_section; Rad=Rad0; RadEnd=RadEnd1; len=sectionLen; ябниярбю=S7,S8,S9;
+  щкелемр=sec01; йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=sectionLen; ябниярбю=S7,S8,S9;
+  щкелемр=sec02; йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=sectionLen; ябниярбю=S7,S8,S9;
+  щкелемр=sec03; йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=sectionLen; ябниярбю=S7,S8,S9;
+  щкелемр=sec011;йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=sectionLen; ябниярбю=S8,S9;
+  щкелемр=sec012;йнд=fz_section; Rad=Rad1; RadEnd=RadEnd1; len=sectionLen; ябниярбю=S9;
+  щкелемр=sec04; йнд=fz_section; Rad=Rad2; RadEnd=RadEnd2; len=sectionLen; ябниярбю=S7,S8,S9;
+  щкелемр=sec05; йнд=fz_section; Rad=Rad3; RadEnd=RadEnd3; len=sectionLen; ябниярбю=S7,S8,S9;
+  щкелемр=sec06; йнд=fz_section; Rad=Rad4; RadEnd=RadEnd4; len=sectionLen; ябниярбю=S7,S8,S9;
 
 +онкнфемхе;
-  ябъгэ=00-sec01;
-  ябъгэ=sec01-sec02; X=sectonLen;
-  ябъгэ=00-sec03; X=deltaSection3;
-  ябъгэ=00-sec04; X=deltaSection4;
-  ябъгэ=sec04-sec05; X=sectonLen;
-  ябъгэ=sec05-sec06; X=sectonLen;
+  ябъгэ=00-sec00;
+  ябъгэ=sec00-sec01;  X=sectionLen;
+  ябъгэ=sec01-sec02;  X=sectionLen;
+  ябъгэ=sec02-sec03;  X=sectionLen;
+  ябъгэ=sec03-sec011; X=sectionLen;
+  ябъгэ=00-sec012;    X=deltaSection3;
+  ябъгэ=00-sec04;     X=deltaSection4;
+  ябъгэ=sec04-sec05;  X=sectionLen;
+  ябъгэ=sec05-sec06;  X=sectionLen;
 
 +тнплскш;
-mainLen=sectonLen*sectionCount;
+sectionLen=Rad/3*2;
+deltaSection3=sectionLen*5;
+deltaSection4=sectionLen*(sectionCount+4);
 
-deltaSection3=sectonLen*2;
-deltaSection4=sectonLen*(sectionCount-3);
+Rad0=Rad/30*29;
 
-len1=Rad*2;
-lis1=len1;
 Rad1=Rad;
 RadEnd1=Rad;
 
-len2=Rad/3*2;
-lis2=len2;
 Rad2=RadEnd1;
 RadEnd2=Rad/30*29;
 
-len3=Rad/3*1;
-lis3=len3;
 Rad3=RadEnd2;
 RadEnd3=Rad/30*27;
-X3=len1+len2;
 
-len4=Rad/3*2;
-lis4=len4;
 Rad4=RadEnd3;
 RadEnd4=Rad/30*20;
-X4=X3+len3;
 
-
+temp=(passCount-319)/32;
+sectionCount=OKR(0,temp,-5);
